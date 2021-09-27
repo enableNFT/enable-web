@@ -3,3 +3,4 @@ dist
 .firebase
 .env
 .env.**
+_commands.md
