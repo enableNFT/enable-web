@@ -1,16 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <div
+    class="menu">
+    <li v-for="item in menus" v-bind:key="item">{{item.name}}</li>
+    </div>
+  <router-view />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data(){
+    return {
+      menus:this.$router.getRoutes()
+    }
+  },
+  created(){
+    console.log(this.$router.getRoutes())
   }
+  // components: {
+  //   HelloWorld
+  // }
 }
 </script>
 
