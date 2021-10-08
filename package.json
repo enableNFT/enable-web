@@ -9,22 +9,27 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^6.0.1",
     "ant-design-vue": "^2.2.8",
     "balm-ui": "^9.37.3",
     "core-js": "^3.6.5",
     "vue": "^3.1.0",
     "vue-i18n": "^9.2.0-beta.7",
     "vue-material": "^1.0.0-beta-15",
-    "vue-router": "^4.0.11"
+    "vue-router": "^4.0.11",
+    "web3": "^1.5.3"
   },
   "devDependencies": {
+    "@intlify/vue-i18n-extensions": "^3.0.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.1.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0",
+    "less": "^2.7.3",
+    "less-loader": "^7.3.0"
   },
   "eslintConfig": {
     "root": true,

@@ -1,0 +1,17 @@
+{
+  "title": {
+    "home": "home",
+    "message": "message",
+    "code": "code",
+    "slogan": "enable NFT,connecting metaverse"
+  },
+  "menus": {
+    "enable_NFT": "Enable NFT",
+    "get_ET": "Get ET",
+    "ecosystem": "Ecosystem",
+    "faq": "FAQ"
+  },
+  "buttons": {
+    "connect_wallet": "connect wallet"
+  }
+}

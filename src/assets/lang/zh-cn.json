@@ -1,0 +1,17 @@
+{
+  "title": {
+    "home": "首页",
+    "message": "消息",
+    "code": "代码",
+    "slogan": "赋能NFT,通达元宇宙"
+  },
+  "menus": {
+    "enable_NFT": "赋能NFT",
+    "get_ET": "获取ET",
+    "ecosystem": "生态系统",
+    "faq": "FAQ"
+  },
+  "buttons": {
+    "connect_wallet": "连接钱包"
+  }
+}
